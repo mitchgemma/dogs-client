@@ -1,0 +1,3 @@
+# Client for dogs app
+
+More on the way...
