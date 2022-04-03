@@ -23,8 +23,8 @@ const IndexDogs = (props) => {
 
   if (dogs.length > 0) {
     dogsJsx = dogs.map((dog) => (
-      <li key={dog.id}>
-        <Link to={`/dogs/${dog.id}`}>{dog.name}</Link>
+      <li key={dog._id}>
+        <Link to={`/dogs/${dog._id}`}>{dog.name}</Link>
       </li>
     ))
   }
